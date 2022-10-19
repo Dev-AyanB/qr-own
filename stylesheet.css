@@ -1,0 +1,57 @@
+body
+{
+    background-color:hsl(212, 45%, 89%);
+    
+}
+.container
+{
+    max-width: 330px;
+    background-color: #B1AFFF;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 8% auto;
+}
+
+.qrImage
+{
+    border-radius: 25px;
+    width: 100%;
+    margin: auto;
+    background-color: #B1AFFF;
+}
+.intro
+{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.content
+{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    color: hsl(256, 50%, 73%);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.attribution
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: #B1AFFF;
+    padding: 1%;
+}
